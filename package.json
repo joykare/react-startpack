@@ -1,0 +1,23 @@
+{
+  "name": "react-startpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:andela-jwarugu/react-startpack.git",
+  "author": "andela-jwarugu <joy.warugu@andela.com>",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
