@@ -11,10 +11,10 @@ Bare minimum setup for a simple react app. Should save you a lot of time. You ar
 * Fork this repo.
 * Navigate to your fork of the react-startpack.
 * Under your repository name, click Clone or download.
-* Clone URL buttonIn the Clone with HTTPs section, click  to copy the clone URL for the repository.
+* In the Clone with HTTPs section, copy the clone URL for the repository.
 * Open Terminal.
 * Type git clone, and then paste the URL you copied. It will look like this, with your GitHub username instead of YOUR-USERNAME:
-```{r, engine='sh', count_lines}
+```{bash}
 git clone https://github.com/YOUR-USERNAME/react-startpack
 ```
 * Press Enter. Your local clone will be created.
@@ -28,5 +28,5 @@ Unpacking objects: 100% (10/10), done.
 ```
 * Now, you have a local copy of your fork of the react-startpack repository!
 * cd into the project root
-* In the project root run `yarn install` to install dependencies
+* In the project root, run `yarn install` to install dependencies
 * To start app `yarn start`
